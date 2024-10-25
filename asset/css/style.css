@@ -188,11 +188,17 @@ button {
 .iconos {
     display: flex;
     gap: 5px;
+    cursor: pointer;
 }
 
 .footer > p {
     font-size: small;
 }
+
+
+
+
+
 
 /* ICONO - BARRA*/
 
