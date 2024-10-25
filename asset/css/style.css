@@ -29,6 +29,8 @@
 
 }
 
+
+
 .grid-content {
     display: grid;
     height: 100vh;
@@ -40,7 +42,7 @@
     grid-template-rows: 10% 10% calc(100vh - 10% - 10% - 10%) 10%;
 }
 
-
+/*VERSION MOBILE*/
 /* HEADER*/
 .header{
     display: flex;
@@ -284,5 +286,13 @@ button {
     .contenedor-prod {
         display: flex;
         justify-content: center;
+    }
+
+    h1 {
+        font-size: large;
+    }
+
+    .footer > p {
+        text-align: center;
     }
 }
