@@ -89,6 +89,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .precio > h4 {
@@ -98,6 +99,9 @@
 
 input {
     width: 70%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
 }
 
 
@@ -165,6 +169,7 @@ button {
 .pag {
     padding: 3px 8px;
     border: 1px solid #000000;
+    margin: 10px 0 ;
 }
 
 .pag > a {
