@@ -160,6 +160,8 @@ button {
     cursor: pointer;
 }
 
+/* PRECIO */
+
 .content {
     display: flex;
     border-radius: 6px;
@@ -199,10 +201,6 @@ button {
 .footer > p {
     font-size: small;
 }
-
-
-
-
 
 
 /* ICONO - BARRA*/
