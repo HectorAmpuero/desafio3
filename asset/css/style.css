@@ -33,13 +33,13 @@
 
 .grid-content {
     display: grid;
-    height: 100vh;
     grid-template-areas:
         'header'
         'precio'
         'main'
         'footer';
-    grid-template-rows: 10% 10% calc(100vh - 10% - 10% - 10%) 10%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 80px calc(100vh - 160px - 70px) 70px;
 }
 
 /*VERSION MOBILE*/
@@ -222,13 +222,12 @@ button {
 @media (min-width: 576px) {
     .grid-content {
         display: grid;
-        min-height: 100vh;
         grid-template-areas:
             'header header'
             'precio main'
             'footer footer';
-        grid-template-rows: 10% calc(100vh - 10% - 10%) 10%;
-        grid-template-columns: 20% auto;
+        grid-template-columns: 150px auto;
+        grid-template-rows: 80px calc(100vh - 80px - 80px) 80px;
     }
 
     .contenedor-prod {
@@ -257,13 +256,12 @@ button {
 @media (min-width: 992px) {
     .grid-content {
         display: grid;
-        min-height: 100vh;
         grid-template-areas:
             'header precio'
             'header main'
             'footer main';
-        grid-template-rows: 10% calc(100vh - 10% - 10%) 10%;
-        grid-template-columns: 15% auto;
+        grid-template-columns: 200px auto;
+        grid-template-rows: 110px calc(100vh - 110px - 80px) 80px;
     }
 
    .header {
@@ -286,11 +284,12 @@ button {
     }
 
     .precio {
-        padding: 10px;
+        padding: 20px;
     }
 
     .card {
         width: 19em;}
+
 
     .contenedor-prod {
         display: flex;
@@ -302,6 +301,6 @@ button {
     }
 
     .footer > p {
-        text-align: center;
+                text-align: center;
     }
 }
